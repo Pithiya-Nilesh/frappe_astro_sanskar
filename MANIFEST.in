@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include astro_sanskar *.css
+recursive-include astro_sanskar *.csv
+recursive-include astro_sanskar *.html
+recursive-include astro_sanskar *.ico
+recursive-include astro_sanskar *.js
+recursive-include astro_sanskar *.json
+recursive-include astro_sanskar *.md
+recursive-include astro_sanskar *.png
+recursive-include astro_sanskar *.py
+recursive-include astro_sanskar *.svg
+recursive-include astro_sanskar *.txt
+recursive-exclude astro_sanskar *.pyc
