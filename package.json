@@ -1,6 +1,4 @@
 
-
-
 {
     "scripts": {
         "build": "cd astro-site && yarn install && yarn run build",
