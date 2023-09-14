@@ -1,0 +1,19 @@
+{
+  "name": "astro-site",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build --base=/assets/astro_sanskar/astro_sanskar/assets",
+    "mv-assets": "mv -f ../astro_sanskar/www/_astro ../astro_sanskar/public/astro_sanskar/assets/_astro",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.0",
+    "@astrojs/image": "^0.18.0",
+    "astro": "2.7.2",
+    "tailwindcss": "^3.0.24"
+  }
+}

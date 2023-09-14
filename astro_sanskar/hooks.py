@@ -2,10 +2,10 @@ from . import __version__ as app_version
 
 app_name = "astro_sanskar"
 app_title = "Astro Sanskar"
-app_publisher = "fasdf"
+app_publisher = "asdf"
 app_description = "asd"
-app_email = "asd"
-app_license = "f"
+app_email = "asdf"
+app_license = "a"
 
 # Includes in <head>
 # ------------------
@@ -215,3 +215,8 @@ app_license = "f"
 # auth_hooks = [
 #	"astro_sanskar.auth.validate"
 # ]
+
+
+website_route_rules = [
+	{"from_route": "/", "to_route": "/home"},
+]

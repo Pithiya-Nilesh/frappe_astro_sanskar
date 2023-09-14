@@ -1,0 +1,103 @@
+---
+import Navbar from "../components/navbar.astro";
+// import Navbar from "../pages/test.astro"
+import Footer from "../components/footer.astro";
+// import { Image, Picture } from "@astrojs/image/components";
+import favicon from "../../public/favicon-32x32.png";
+import CookieConsent from "../components/CookieConsent.astro";
+import ScrollToTop from "../components/ScrollToTop.astro";
+export interface Props {
+	title: string;
+	keyword?: string;
+	description?: string;
+	canonical_href?: string;
+}
+
+const { title, keyword='', description='', canonical_href=''} = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- <meta name="description" content="Astro description" /> -->
+		<meta name="viewport" content="width=device-width" />
+		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+		<!-- <link rel="icon" href={favicon} sizes="32x32"  type="image/png"> -->
+		<!-- <link rel="icon" href="/favicon-32x32.png" sizes="32x32"  type="image/png"> -->
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-16x16.png" sizes="16x16"  type="image/png">
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-32x32352e4b.png" sizes="32x32"  type="image/png">
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-64x64.png" sizes="64x64"  type="image/png">
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-48x48.png" sizes="48x48"  type="image/png">
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-128x128.png" sizes="128x128"  type="image/png">
+		<link rel="icon" href="https://sanskar.frappe.cloud/files/favicon-256x256.png" sizes="256x256"  type="image/png">
+		
+		<meta name="generator" content={Astro.generator} />
+		<meta name="robots" content="noindex,nofollow">
+
+		{keyword && <meta name="keyword" content={keyword} />}
+		{description && <meta name="description" content={description} /> }
+
+		{canonical_href && <link rel="canonical" href={canonical_href} />}
+
+		<title>{title}</title>
+		
+		<link
+		href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css"
+		rel="stylesheet"
+		/> 
+		<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+		
+		<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+		
+		<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet" /> -->
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+
+		<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+		
+	</head>
+	<body>
+		<header>
+			<Navbar />
+		</header>
+		<main>
+			<ScrollToTop />
+			<CookieConsent />
+			<slot />
+			<!-- <script 
+				src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js" defer
+				></script> -->
+				<script
+				src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
+				defer></script>
+				<!-- <script src="../../node_modules/flowbite/dist/flowbite.min.js" defer></script> -->
+				
+				<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+				
+				<script
+				src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js" defer></script>
+				
+				<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" defer></script> -->
+				
+				<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" defer></script> -->
+				
+				<link
+					href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+					rel="stylesheet"
+				/>
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+				
+				<link
+					href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+					rel="stylesheet"
+				/>
+
+			</main>
+			<Footer />
+		</body>
+		</html>
+		
