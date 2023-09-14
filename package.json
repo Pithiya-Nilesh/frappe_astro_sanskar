@@ -1,8 +1,9 @@
 
 
+
 {
     "scripts": {
-        "build": "cd astro-site && nvm install 16.12.0 && yarn install && yarn run build",
-        "postinstall": "cd astro-site && nvm install 16.12.0 && yarn install"
+        "build": "cd astro-site && yarn install && yarn run build",
+        "postinstall": "cd astro-site && yarn install"
     }
 }
