@@ -1,0 +1,1 @@
+import"./hoisted.8ba330c4.js";document.addEventListener("DOMContentLoaded",function(){new Swiper(".swiper-customer",{loop:!0,slidesPerView:1,spaceBetween:0,autoplay:{delay:3e3},navigation:{nextEl:"#next",prevEl:"#prev"},breakpoints:{640:{slidesPerView:1.5,centeredSlides:!0},768:{slidesPerView:1,centeredSlides:!0},1024:{centeredSlides:!1,slidesPerView:2}}})});
