@@ -1,0 +1,47 @@
+<svg id="cloud-management" xmlns="http://www.w3.org/2000/svg" width="87.408" height="87.408" viewBox="0 0 87.408 87.408">
+  <g id="Group_2555" data-name="Group 2555">
+    <g id="Group_2549" data-name="Group 2549">
+      <g id="Group_2548" data-name="Group 2548">
+        <g id="Group_2543" data-name="Group 2543">
+          <path id="Path_6522" data-name="Path 6522" d="M30.957,54.63H14.568A14.568,14.568,0,0,1,12.849,25.6,14.588,14.588,0,0,1,27.315,12.747a14.377,14.377,0,0,1,1.919.127,14.569,14.569,0,0,1,28.939,0,14.377,14.377,0,0,1,1.919-.127A14.588,14.588,0,0,1,74.559,25.6,14.588,14.588,0,0,1,87.408,40.062V50.988a1.821,1.821,0,0,1-1.821,1.821H83.766V40.062A10.937,10.937,0,0,0,72.84,29.136a1.821,1.821,0,0,1-1.821-1.821A10.92,10.92,0,0,0,56.948,16.853,1.82,1.82,0,0,1,54.6,15.031l.025-.463a10.926,10.926,0,0,0-21.852,0l.025.463a1.822,1.822,0,0,1-.7,1.517,1.8,1.8,0,0,1-1.643.306A10.92,10.92,0,0,0,16.389,27.315a1.821,1.821,0,0,1-1.821,1.821,10.926,10.926,0,0,0,0,21.852H30.957Z" transform="translate(0 0)" fill="#1e0b4b"/>
+        </g>
+        <g id="Group_2544" data-name="Group 2544" transform="translate(45.525 12.747)">
+          <path id="Path_6523" data-name="Path 6523" d="M54.136,21.568H50.494a10.926,10.926,0,1,0-21.852,0H25a14.568,14.568,0,0,1,29.136,0Z" transform="translate(-25 -7)" fill="#1e0b4b"/>
+        </g>
+        <g id="Group_2545" data-name="Group 2545" transform="translate(15 25)">
+          <rect id="Rectangle_405" data-name="Rectangle 405" width="7" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+        </g>
+        <g id="Group_2546" data-name="Group 2546" transform="translate(25 25)">
+          <rect id="Rectangle_406" data-name="Rectangle 406" width="4" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+        </g>
+        <g id="Group_2547" data-name="Group 2547" transform="translate(7.284 32.778)">
+          <path id="Path_6524" data-name="Path 6524" d="M11.284,32.568a7.284,7.284,0,1,1,0-14.568v3.642a3.642,3.642,0,1,0,0,7.284Z" transform="translate(-4 -18)" fill="#1e0b4b"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2550" data-name="Group 2550" transform="translate(29.136 29.136)">
+      <path id="Path_6525" data-name="Path 6525" d="M45.136,74.272A29.136,29.136,0,1,1,74.272,45.136,29.17,29.17,0,0,1,45.136,74.272Zm0-54.63A25.494,25.494,0,1,0,70.63,45.136,25.522,25.522,0,0,0,45.136,19.642Z" transform="translate(-16 -16)" fill="#1e0b4b"/>
+    </g>
+    <g id="Group_2551" data-name="Group 2551" transform="translate(45.525 29.136)">
+      <path id="Path_6526" data-name="Path 6526" d="M37.747,74.272C30.479,74.272,25,61.745,25,45.136S30.479,16,37.747,16,50.494,28.527,50.494,45.136,45.015,74.272,37.747,74.272Zm0-54.63c-4.307,0-9.105,10.471-9.105,25.494s4.8,25.494,9.105,25.494,9.105-10.471,9.105-25.494S42.054,19.642,37.747,19.642Z" transform="translate(-25 -16)" fill="#1e0b4b"/>
+    </g>
+    <g id="Group_2552" data-name="Group 2552" transform="translate(31 56)">
+      <rect id="Rectangle_407" data-name="Rectangle 407" width="55" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+    </g>
+    <g id="Group_2553" data-name="Group 2553" transform="translate(35 44)">
+      <rect id="Rectangle_408" data-name="Rectangle 408" width="47" height="3" transform="translate(0 0.011)" fill="#1e0b4b"/>
+    </g>
+    <g id="Group_2554" data-name="Group 2554" transform="translate(35 69)">
+      <rect id="Rectangle_409" data-name="Rectangle 409" width="47" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+    </g>
+  </g>
+  <g id="Group_2556" data-name="Group 2556" transform="translate(22 58)">
+    <rect id="Rectangle_410" data-name="Rectangle 410" width="3" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+  </g>
+  <g id="Group_2557" data-name="Group 2557" transform="translate(22 66)">
+    <rect id="Rectangle_411" data-name="Rectangle 411" width="3" height="3" transform="translate(0 0.011)" fill="#1e0b4b"/>
+  </g>
+  <g id="Group_2558" data-name="Group 2558" transform="translate(15 58)">
+    <rect id="Rectangle_412" data-name="Rectangle 412" width="3" height="4" transform="translate(0 0.011)" fill="#1e0b4b"/>
+  </g>
+</svg>
