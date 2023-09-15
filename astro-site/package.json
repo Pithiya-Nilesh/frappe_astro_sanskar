@@ -1,5 +1,3 @@
-
-
 {
   "name": "astro-site",
   "type": "module",
@@ -7,9 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build --base=/assets/frappe_astro/frappe_astro/assets && yarn mv-assets && yarn mv-html",
-    "mv-assets": "rm -rf ../frappe_astro/public/frappe_astro/assets/_astro && mv -f ./dist/_astro ../frappe_astro/public/frappe_astro/assets/_astro",
-    "mv-html": "rm -rf ../frappe_astro/www/* && mv -f  ./dist/* ../frappe_astro/www",
+    "build": "astro build --base=/assets/astro_sanskar/astro_sanskar/assets",
+    "mv-assets": "mv -f ../astro_sanskar/www/_astro ../astro_sanskar/public/astro_sanskar/assets/_astro",
     "preview": "astro preview",
     "astro": "astro"
   },
