@@ -19,7 +19,7 @@
 		
 		<meta name="generator" content="Astro v2.10.12">
 
-		<meta name="keyword" content="Erpnext solution company, erpnext implementation, erp implementation companies, ERPNext software development company, ERPnext development services, Frappe ERPNext, Erpnext software, ERPNext open-source, ServiceNow company">
+		<meta name="keyword" content="Erpnext solution company, erpnext implementation, erp implementation companies, ERPNext software development company, ERPNext development services, Frappe ERPNext, Erpnext software, ERPNext open-source, ServiceNow company">
 		<meta name="description" content="Hire dedicated ERPNext developers from Sanskar Technolab to streamline your HR &#38; payroll tasks efficiently.">
 
 		<link rel="canonical" href="https://sanskartechnolab.com/hr-payroll">
@@ -39,8 +39,8 @@
 
 		<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
-	<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/about.0c14bdad.css" />
-<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/hr-payroll.da431dd3.css" /><script type="module" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/hoisted.11550c1e.js"></script></head>
+	<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/about.4f2fb8a4.css" />
+<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/hr-payroll.da431dd3.css" /><script type="module" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/hoisted.7a62635f.js"></script></head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWGDJ9VQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -466,7 +466,62 @@
         </div>
     </div>
 </div>
-			<!-- <Chatbot /> -->
+			<div class="fixed bottom-5 right-16 z-30 items-center cursor-pointer astro-STQRXSUL" id="chat_icon">
+    <img alt="chatbot" class="astro-STQRXSUL" width="42" height="42" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat.b0d20482_oQGzh.svg" loading="eager" decoding="async">
+</div>
+
+<!-- chat popup -->
+<div class="bg-white box hidden fixed bottom-2 right-2 left-2 md:bottom-2 md:right-2 md:left-auto z-30 astro-STQRXSUL" id="chat_popup">
+    <img alt="close" class="absolute right-4 top-6 h-3 w-3 cursor-pointer astro-STQRXSUL" id="close_btn" width="9" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat_close.f69033cc_14t0GF.svg" loading="lazy" decoding="async">
+
+    <div class="lg:h-[30rem] md:h-[70vh] h-[70vh] lg:w-96 md:w-[26rem] w-full astro-STQRXSUL" id="a">
+        <div class="flex items-center gap-2 bg-[#F6F9FB] rounded-t-lg p-4 text-[#31393c] lg:text-lg md:text-base text-sm font-semibold astro-STQRXSUL">
+            <img alt="sanskar logo" class="astro-STQRXSUL" width="32" height="32" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/sanskar_chat_logo.c0687a77_Z1OqktV.svg" loading="eager" decoding="async">
+            <p class="astro-STQRXSUL">Chat With Sanskar</p>
+        </div>
+
+        <div class="overflow-y-scroll lg:h-[26rem] md:h-[58vh] h-[58vh] astro-STQRXSUL" id="messages">
+            <!-- Received Message    -->
+            <!-- <div class="px-2 pt-2 text-right ml-5 mt-5">
+                <p class="text-white !text-left bg-[#3E96F4] text-xs lg:text-base md:text-sm p-2 rounded-l-[10px] rounded-b-[10px] inline-block">
+                  Hello
+                </p>
+              <div class="flex items-center justify-end">
+                <p class="text-[#9A9A9A] text-xs lg:text-sm md:text-xs">11:53 AM</p>
+                <img src="https://sanskartechnolab.com/files/single_right.svg" alt="single tick"/>
+              </div>
+            </div> -->
+
+            <!-- Sent Message -->
+            <!-- <div class="px-2 pt-2 mr-5">
+                <p class="text-[#31393C] bg-[#F6F9FB] text-xs lg:text-base md:text-sm p-2 rounded-r-[10px] rounded-b-[10px] inline-block">
+                  I am looking for a new ERP system for my company
+                </p>
+                <span class="relative">
+                    <p class="text-[#9A9A9A] lg:text-sm md:text-xs text-xs absolute right-0 whitespace-nowrap">11:53 AM</p>
+                </span>
+            </div> -->
+
+            <!-- Another Received Message -->
+            <!-- <div class="px-2 pt-2 text-right ml-5 mt-5">
+                <p class="text-white !text-left bg-[#3E96F4] text-xs lg:text-base md:text-sm p-2 rounded-l-[10px] rounded-b-[10px] inline-block">
+                    Another received messageadsf
+                </p> 
+                <div class="flex items-center justify-end">
+                  <p class="text-[#9A9A9A] text-xs lg:text-sm md:text-xs">11:53 AM</p>
+                  <Image src={double_right} alt="Double Right" class="w-4 h-4 ml-2" />
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <form class="flex gap-2 items-center p-2 astro-STQRXSUL" id="chat_form">
+        <input class="w-10/12 rounded-[10px] text-[#333333] border-none bg-[#F6F9FB] astro-STQRXSUL" type="text" placeholder="Message" name="chat_message" id="chat_message">
+        <button class="w-2/12 astro-STQRXSUL">
+            <img alt="chatbot" class="astro-STQRXSUL" width="40" height="40" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat_send.b1cb8ad5_1VXPR2.svg" loading="eager" decoding="async">
+        </button>
+    </form>
+</div>
 			
         
 
@@ -822,7 +877,7 @@
                             <p class="text-sm md:text-sm lg:text-base mb-4 md:mb-6 lg:mb-7 astro-WLVQXR5U">
                                ERPNext provides comprehensive documentation and video tutorials that facilitate a self-guided, fast implementation process for all employees. 
                             </p>
-                            <img alt="faq-bom" class="astro-WLVQXR5U" width="669" height="278" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/faq-bom.5bbc8e83_19I5XP.svg" loading="eager" decoding="async">
+                            <img alt="Self_Onboarding_Implementation" class="astro-WLVQXR5U" width="971" height="376" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/Self-Onboarding-_-Implementation.1ea4e6c0_1CnMkD.png" loading="eager" decoding="async">
                             <div class=" mt-5 astro-WLVQXR5U">
                                 <div class="flex  gap-5 ml-2 mb-2 astro-WLVQXR5U">
                                     <div class="w-0   astro-WLVQXR5U">
@@ -830,7 +885,7 @@
                                     </div>
                                     </div>
                                     <p class="text-sm md:text-sm lg:text-base leading-7 w-12/12 astro-WLVQXR5U">
-                                        ERPnext allows organizations to onboard and implement ERPNext with minimal dependency on external support.
+                                        ERPNext allows organizations to onboard and implement ERPNext with minimal dependency on external support.
                                     </p>
                                 </div>
                                <div class="flex  gap-5 ml-2 mb-2 astro-WLVQXR5U">
@@ -1150,7 +1205,7 @@
                            <p class="text-xs md:text-sm lg:text-base leading-1 mb-4 md:mb-6 lg:mb-7 astro-WLVQXR5U">
                                 ERPNext provides comprehensive documentation and video tutorials that facilitate a self-guided, fast implementation process for all employees. 
                             </p>
-                            <img alt="faq-bom" class="astro-WLVQXR5U" width="669" height="278" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/faq-bom.5bbc8e83_19I5XP.svg" loading="eager" decoding="async">
+                            <img alt="Self_Onboarding_Implementation" class="astro-WLVQXR5U" width="971" height="376" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/Self-Onboarding-_-Implementation.1ea4e6c0_1CnMkD.png" loading="eager" decoding="async">
                             <div class="mt-5 astro-WLVQXR5U">
                                 <div class="flex  gap-5 ml-2 mb-2 astro-WLVQXR5U">
                                     <div class="w-0   astro-WLVQXR5U">
@@ -1158,7 +1213,7 @@
                                     </div>
                                     </div>
                                     <p class="text-xs md:text-sm lg:text-base leading-1 astro-WLVQXR5U">
-                                       ERPnext allows organizations to onboard and implement ERPNext with minimal dependency on external support.s
+                                       ERPNext allows organizations to onboard and implement ERPNext with minimal dependency on external support.s
                                     </p>
                                 </div>
                                  <div class="flex  gap-5 ml-2 mb-2 astro-WLVQXR5U">
@@ -1381,7 +1436,7 @@
 							Advantis Quartz
 							</div>
 							<p class="text-xs md:text-sm lg:text-base astro-WLVQXR5U">
-								Advantis Quartz is a high-end flagship brand, the manufacturer of raw materials for quarries and its engineering. We reached out to the team at Sanskar Technolab through their website. They understand our requirements and prepared a detailed sheet with every task and timeline to implement the ERPnext for our business. They helped us in implementing almost every ERPNext module such as accounting, purchase, inventory, manufacturing, sales, Hr & payroll, and asset management. 
+								Advantis Quartz is a high-end flagship brand, the manufacturer of raw materials for quarries and its engineering. We reached out to the team at Sanskar Technolab through their website. They understand our requirements and prepared a detailed sheet with every task and timeline to implement the ERPNext for our business. They helped us in implementing almost every ERPNext module such as accounting, purchase, inventory, manufacturing, sales, Hr & payroll, and asset management. 
 
 							</p>
 							<div class="text-xs md:text-sm lg:text-base astro-WLVQXR5U">
@@ -1417,7 +1472,7 @@
 							Advantis Quartz
 							</div>
 							<p class="text-xs md:text-sm lg:text-base astro-WLVQXR5U">
-								Advantis Quartz is a high-end flagship brand, the manufacturer of raw materials for quarries and its engineering. We reached out to the team at Sanskar Technolab through their website. They understand our requirements and prepared a detailed sheet with every task and timeline to implement the ERPnext for our business. They helped us in implementing almost every ERPNext module such as accounting, purchase, inventory, manufacturing, sales, Hr & payroll, and asset management. 
+								Advantis Quartz is a high-end flagship brand, the manufacturer of raw materials for quarries and its engineering. We reached out to the team at Sanskar Technolab through their website. They understand our requirements and prepared a detailed sheet with every task and timeline to implement the ERPNext for our business. They helped us in implementing almost every ERPNext module such as accounting, purchase, inventory, manufacturing, sales, Hr & payroll, and asset management. 
 
 							</p>
 							<div class="text-xs md:text-sm lg:text-base astro-WLVQXR5U">
@@ -1651,8 +1706,9 @@
 				
 				<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
 
-				<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script> -->
+				
 
+				<script src="/assets/astro_sanskar/slider_script.js" defer></script>
 
 			</main>
 			<section class="bg-[#3E96F4] flex flex-wrap relative mt-[3.125rem] md:mt-[3.125rem] lg:mt-[6.25rem] astro-K2F5ZB5C" id="section">
