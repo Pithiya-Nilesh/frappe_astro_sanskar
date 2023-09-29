@@ -39,8 +39,8 @@
 
 		<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 
-	<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/about.01d105c3.css" />
-<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/career.cbe70c96.css" /><script type="module" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/hoisted.49bf27e1.js"></script></head>
+	<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/about.49e41b53.css" />
+<link rel="stylesheet" href="/assets/astro_sanskar/astro_sanskar/assets/_astro/career.cbe70c96.css" /><script type="module" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/hoisted.32bf8547.js"></script></head>
 	<body>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWGDJ9VQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -449,7 +449,7 @@
     <img alt="scroll to top" width="42" height="42" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/scroll-top.a3bfd853_Z1mabhs.svg" loading="eager" decoding="async">
 </div>
 			<div class="cookie-consent fixed bottom-0 md:left-24 md:right-24 lg:left-10 lg:right-10 xl:left-40 xl:right-40 mx-5 md:max-w-7xl md:mx-auto text-white z-20 bg-[#31393C] rounded-t-[20px] opacity-80" id="cookies-popup">
-  <img alt="close" class="absolute right-2 top-2 cursor-pointer" id="close" width="24" height="24" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/popup_close_btn.e9dd53e3_PJ067.svg" loading="lazy" decoding="async">
+  <img alt="close" class="absolute right-2 lg:left-2 top-2 cursor-pointer" id="close" width="24" height="24" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/popup_close_btn.e9dd53e3_ZTwd2Y.svg" loading="lazy" decoding="async">
   <div class="p-2 md:p-5 lg:p-8 mx-5 md:max-w-7xl md:mx-auto">
     <p class="font-bold text-base md:text-lg lg:text-xl">Cookies & Privacy</p>
     <div class="flex flex-wrap justify-between items-center">
@@ -457,17 +457,75 @@
       <div class="w-full md:w-6/12 lg:w-4/12 xl:w-3/12 flex items-center inter font-semibold lg:text-base md:text-sm text-xs mt-3 md:mt-5 lg:mt-0 gap-3">
     <a href="/privacy-policy" class=" underline px-2" id="more_info">More information</a>
     <!-- <button class="bg-blue-500 px-2" id="accept_button">Accept</button> -->
-    <div class="flex justify-between bg-[#3E96F4] rounded-lg px-3 md:px-3 lg:px-5 py-1 md:py-2 lg:py-2 md:w-28 w-20">
-    <button class="text-white font-semibold lg:text-base md:text-sm" id="accept_button">Accept
+    <div class="flex justify-between bg-[#3E96F4] rounded-lg px-3 md:px-3 lg:px-5 py-1 md:py-2 lg:py-2 md:w-28 w-20 cursor-pointer" id="accept_button">
+    <button class="text-white font-semibold lg:text-base md:text-sm">Accept
     </button>
     
-          <img alt="right arrow " width="6" height="12" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/right.403afc82_e4dOL.svg" loading="eager" decoding="async">
+          <img alt="right arrow" width="6" height="12" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/right.403afc82_e4dOL.svg" loading="eager" decoding="async">
         </div>
       </div>
     </div>
   </div>
 </div>
-			<!-- <Chatbot /> -->
+			<div class="fixed bottom-5 right-16 z-30 items-center cursor-pointer astro-STQRXSUL" id="chat_icon">
+    <img alt="chatbot" class="astro-STQRXSUL" width="42" height="42" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat.b0d20482_oQGzh.svg" loading="eager" decoding="async">
+</div>
+
+
+<!-- chat popup -->
+<div class="bg-white box hidden fixed bottom-2 right-2 left-2 md:bottom-2 md:right-2 md:left-auto z-30 astro-STQRXSUL" id="chat_popup">
+    <img alt="close" class="absolute right-4 top-6 h-3 w-3 cursor-pointer astro-STQRXSUL" id="close_btn" width="9" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat_close.f69033cc_14t0GF.svg" loading="lazy" decoding="async">
+    <div id="bg-color" class="astro-STQRXSUL">
+    <div class="lg:h-[30rem] md:h-[70vh] h-[70vh] lg:w-80 md:w-[26rem] w-full astro-STQRXSUL" id="a">
+        <div class="flex items-center gap-2 bg-[#F6F9FB] rounded-t-lg p-4 text-[#31393c] lg:text-lg md:text-base text-sm font-semibold astro-STQRXSUL">
+            <img alt="sanskar logo" class="astro-STQRXSUL" width="32" height="32" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/sanskar_chat_logo.c0687a77_Z1OqktV.svg" loading="eager" decoding="async">
+            <p class="astro-STQRXSUL">Sanskar ChatBot</p>
+        </div>
+
+        <div class="overflow-y-scroll lg:h-[26rem] md:h-[58vh] h-[58vh] astro-STQRXSUL" id="messages">
+            <!-- Received Message    -->
+            <!-- <div class="px-2 pt-2 text-right ml-5 mt-5">
+                <p class="text-white !text-left bg-[#3E96F4] text-xs lg:text-base md:text-sm p-2 rounded-l-[10px] rounded-b-[10px] inline-block">
+                  Hello
+                </p>
+              <div class="flex items-center justify-end">
+                <p class="text-[#9A9A9A] text-xs lg:text-sm md:text-xs">11:53 AM</p>
+                <img src="https://sanskartechnolab.com/files/single_right.svg" alt="single tick"/>
+              </div>
+            </div> -->
+
+            <!-- Sent Message -->
+            <!-- <div class="px-2 pt-2 mr-5">
+                <p class="text-[#31393C] bg-[#F6F9FB] text-xs lg:text-base md:text-sm p-2 rounded-r-[10px] rounded-b-[10px] inline-block">
+                  I am looking for a new ERP system for my company
+                </p>
+                <span class="relative">
+                    <p class="text-[#9A9A9A] lg:text-sm md:text-xs text-xs absolute right-0 whitespace-nowrap">11:53 AM</p>
+                </span>
+            </div> -->
+
+            <!-- Another Received Message -->
+            <!-- <div class="px-2 pt-2 text-right ml-5 mt-5">
+                <p class="text-white !text-left bg-[#3E96F4] text-xs lg:text-base md:text-sm p-2 rounded-l-[10px] rounded-b-[10px] inline-block">
+                    Another received messageadsf
+                </p> 
+                <div class="flex items-center justify-end">
+                  <p class="text-[#9A9A9A] text-xs lg:text-sm md:text-xs">11:53 AM</p>
+                  <Image src={double_right} alt="Double Right" class="w-4 h-4 ml-2" />
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <form class="flex gap-2 items-center p-2 astro-STQRXSUL" id="chat_form">
+        <input class="w-11/12 rounded-[10px] text-[#333333] border-none bg-[#F6F9FB] astro-STQRXSUL" type="text" placeholder="Please select from the options" name="chat_message" id="chat_message" disabled autocomplete="off">
+        <button class="w-1/12 astro-STQRXSUL" id="send_button" disabled>
+            <img alt="chatbot" class="astro-STQRXSUL" width="40" height="40" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/chat_send.b1cb8ad5_1VXPR2.svg" loading="eager" decoding="async">
+        </button>
+    </form>
+
+</div>
+</div>
 			
   
   
@@ -1140,6 +1198,9 @@
 				
 
 				<script src="/assets/astro_sanskar/slider_script.js" defer></script>
+
+				<!--Google recaptcha code for -->
+				<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 			</main>
 			<section class="bg-[#3E96F4] flex flex-wrap relative mt-[3.125rem] md:mt-[3.125rem] lg:mt-[6.25rem] astro-K2F5ZB5C" id="section">
