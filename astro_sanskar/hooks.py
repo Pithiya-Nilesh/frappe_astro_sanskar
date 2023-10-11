@@ -263,3 +263,4 @@ website_redirects = [
 	{"source": "/inquiry", "target": "/contact-us"},
     {"source": "/contact", "target": "/contact-us"},
 ]
+
