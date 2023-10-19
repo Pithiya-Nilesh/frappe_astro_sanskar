@@ -262,5 +262,6 @@ website_redirects = [
 	{"source": "/item", "target": "/"},
 	{"source": "/inquiry", "target": "/contact-us"},
     {"source": "/contact", "target": "/contact-us"},
+	{"source": "/sap_to_erpnext_migration", "target": "/sap-to-erpnext-migration"},
 ]
 
