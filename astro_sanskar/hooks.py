@@ -263,5 +263,7 @@ website_redirects = [
 	{"source": "/inquiry", "target": "/contact-us"},
     {"source": "/contact", "target": "/contact-us"},
 	{"source": "/sap_to_erpnext_migration", "target": "/sap-to-erpnext-migration"},
+	{"source": "/jagdamba-textile", "target": "/textile-industry-erpnext-implementation"},
+	{"source": "/migoo-case-study", "target": "/construction-equipment-as-a-service"},
 ]
 
