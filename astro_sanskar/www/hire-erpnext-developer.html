@@ -1707,11 +1707,11 @@
 
                     <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5 md:mt-7 lg:mt-10 astro-PIKMSKDF">
                         <div class="astro-PIKMSKDF">
-                            <input type="text" placeholder="Your Name" class="rounded w-full astro-PIKMSKDF" name="name" required>
+                            <input type="text" placeholder="Your Name*" class="rounded w-full astro-PIKMSKDF" name="name" required>
                         </div>
 
                         <div class="astro-PIKMSKDF">
-                            <input type="email" placeholder="Email Address" class="rounded w-full astro-PIKMSKDF" name="email" required>
+                            <input type="email" placeholder="Email Address*" class="rounded w-full astro-PIKMSKDF" name="email" required>
                         </div>
 
                         <div class="astro-PIKMSKDF">
@@ -1720,7 +1720,7 @@
                     </div>
 
                     <div class="mt-5 astro-PIKMSKDF">
-                        <textarea name="message" id="" rows="5" placeholder="Describe Your Requirements" class="w-full rounded p-3 astro-PIKMSKDF" required></textarea>
+                        <textarea name="message" id="" rows="5" placeholder="Describe Your Requirements*" class="w-full rounded p-3 astro-PIKMSKDF" required></textarea>
                     </div>
 
                     <div class="flex justify-center mt-5 md:mt-7 lg:mt-10 astro-PIKMSKDF">
@@ -1739,138 +1739,7 @@
     
 
     
-    <section class="mx-5 md:max-w-7xl md:mx-auto py-[2rem] md:py-[2rem] lg:py-[4rem] md:px-24 2xl:px-0 astro-PIKMSKDF">
-        <div x-data="{ accordion: 0 }" class="grid gap-5 bg-[#EBF5FF] rounded-[20px] text-[#31393C] p-3 md:p-4 lg:p-5 shadow drop-shadow-sm astro-PIKMSKDF">
-            <p class="text-[#31393C] text-[1.25rem] md:text-[1.50rem] lg:text-[1.75rem] font-semibold ml-3 leading-9 astro-PIKMSKDF">
-                Frequently Asked Questions (FAQs)
-            </p>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 0 ? 1 : 0">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        01 sample Question?
-                    </div>
-                    <img :class="accordion === 1 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_kYBu0.svg" loading="eager" decoding="async">
-                    <img :class="accordion !== 1 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_Zdb7CW.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 0 ? 'h-0' : 'border-t-2'">
-                    <div class="w-full bg-white rounded-[10px] p-5 astro-PIKMSKDF" id="faq1_c">
-                        <p class="text-xs md:text-sm lg:text-base astro-PIKMSKDF">
-                            Direct call management eliminates the need to switch
-                            between applications or manage the contact and other
-                            personal details of customers. Our products let you
-                            access all the data in ERPNext and one-click calling
-                            to streamline your workflow and enhance
-                            communication efficiency.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 2 ? 0 : 2">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        How much does your product cost?
-                    </div>
-                    <img :class="accordion !== 2 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_ZMR9as.svg" loading="eager" decoding="async">
-                    <img :class="accordion === 2 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_2mJRjJ.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 2 ? 'h-0' : 'border-t-2'">
-                    <p class="text-xs md:text-sm lg:text-base p-5 astro-PIKMSKDF">
-                        Direct call management eliminates the need to switch
-                        between applications or manage the contact and other
-                        personal details of customers. Our products let you
-                        access all the data in ERPNext and one-click calling to
-                        streamline your workflow and enhance communication
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 3 ? 0 : 3">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        How long can I access my call logs in the ERPNext
-                        system?
-                    </div>
-                    <img :class="accordion !== 3 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_ZDYFlO.svg" loading="eager" decoding="async">
-                    <img :class="accordion === 3 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_Z5E7Qt.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 3 ? 'h-0' : 'border-t-2'">
-                    <p class="text-xs md:text-sm lg:text-base p-5 astro-PIKMSKDF">
-                        Direct call management eliminates the need to switch
-                        between applications or manage the contact and other
-                        personal details of customers. Our products let you
-                        access all the data in ERPNext and one-click calling to
-                        streamline your workflow and enhance communication
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 4 ? 0: 4">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        Can I access call recordings easily with the call
-                        details fetching feature?
-                    </div>
-                    <img :class="accordion !== 4 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_Zv7cxb.svg" loading="eager" decoding="async">
-                    <img :class="accordion === 4 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_2w80Lf.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 4 ? 'h-0' : 'border-t-2'">
-                    <p class="text-xs md:text-sm lg:text-base p-5 astro-PIKMSKDF">
-                        Direct call management eliminates the need to switch
-                        between applications or manage the contact and other
-                        personal details of customers. Our products let you
-                        access all the data in ERPNext and one-click calling to
-                        streamline your workflow and enhance communication
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 5 ? 0: 5">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        How do trend analysis and graphical representations
-                        enhance decision-making?
-                    </div>
-                    <img :class="accordion !== 5 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_ZmeIIx.svg" loading="eager" decoding="async">
-                    <img :class="accordion === 5 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_3I0A2.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 5 ? 'h-0' : 'border-t-2'">
-                    <p class="text-xs md:text-sm lg:text-base p-5 astro-PIKMSKDF">
-                        Direct call management eliminates the need to switch
-                        between applications or manage the contact and other
-                        personal details of customers. Our products let you
-                        access all the data in ERPNext and one-click calling to
-                        streamline your workflow and enhance communication
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-2xl astro-PIKMSKDF">
-                <div class="flex justify-between p-4 cursor-pointer astro-PIKMSKDF" @click="accordion = accordion == 6 ? 0: 6">
-                    <div class="font-semibold text-sm md:text-sm lg:text-base astro-PIKMSKDF">
-                        Can two of our agents call at the same time?
-                    </div>
-                    <img :class="accordion !== 6 ? 'block' : 'hidden'" alt="down-arrow" class="astro-PIKMSKDF" width="15" height="9" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/down-arrow.c0b55f95_ZdmfTT.svg" loading="eager" decoding="async">
-                    <img :class="accordion === 6 ? 'block' : 'hidden'" alt="up-arrow" class="astro-PIKMSKDF" width="15" height="8" src="/assets/astro_sanskar/astro_sanskar/assets/_astro/up-arrow.4341df94_Z2oFYAb.svg" loading="eager" decoding="async">
-                </div>
-                <div class="overflow-hidden bg-white rounded-b-[10px] astro-PIKMSKDF" :class="accordion !== 6 ? 'h-0' : 'border-t-2'">
-                    <p class="text-xs md:text-sm lg:text-base p-5 astro-PIKMSKDF">
-                        Direct call management eliminates the need to switch
-                        between applications or manage the contact and other
-                        personal details of customers. Our products let you
-                        access all the data in ERPNext and one-click calling to
-                        streamline your workflow and enhance communication
-                        efficiency.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    
     
 
 			<!-- <script 
