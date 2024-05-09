@@ -1,0 +1,1 @@
+import"./hoisted.114e0bd2.js";document.addEventListener("DOMContentLoaded",function(){const t=document.querySelectorAll(".clickable-div"),e=document.querySelectorAll(".image-container");e[0].classList.add("active"),t.forEach((c,i)=>{c.addEventListener("click",function(){e.forEach(a=>{a.classList.remove("active")}),e[i].classList.add("active")})})});
