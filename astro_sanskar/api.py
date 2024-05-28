@@ -10,9 +10,9 @@ def send_form_failed_notification(**kwargs):
 
 def send_mail(**kwargs):
     frappe.sendmail(
-        recipients=["nilesh@sanskartechnolab.com"],
-        # recipients=["kamal@sanskartechnolab.com"],
-        # cc=["nilesh@sanskartechnolab.com", "saurabh@sanskartechnolab.com", "palak@sanskartechnolab.com"],
+        # recipients=["nilesh@sanskartechnolab.com"],
+        recipients=["kamal@sanskartechnolab.com"],
+        cc=["nilesh@sanskartechnolab.com", "saurabh@sanskartechnolab.com", "palak@sanskartechnolab.com"],
         sender="sanskartechnolabtest@gmail.com",
         subject=f"Failed: To Send Form Data From {kwargs['page_name']} To Sanskar ERP In Sanskar Technolab Website.",
         template="send_form_failed_notification_email_template",
