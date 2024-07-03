@@ -265,5 +265,12 @@ website_redirects = [
 	{"source": "/sap_to_erpnext_migration", "target": "/sap-to-erpnext-migration"},
 	{"source": "/jagdamba-textile", "target": "/textile-industry-erpnext-implementation"},
 	{"source": "/migoo-case-study", "target": "/construction-equipment-as-a-service"},
+	{"source": "/healthcare", "target": "/healthcare-erp"},
+    {"source": "/textile", "target": "/textile-erp"},
+    {"source": "/retail", "target": "/retail-erp"},
+    {"source": "/hr-payroll", "target": "/hrms-software"},
+    {"source": "/manufacturing", "target": "/erpnext-manufacturing"},
+    {"source": "/erpnext_indiamart_integration_product", "target": "/erpnext_indiamart_integration"},
+    {"source": "/product-engineering", "target":"/product-developement-company"}
 ]
 
