@@ -263,7 +263,7 @@ website_redirects = [
 	{"source": "/inquiry", "target": "/contact-us"},
     {"source": "/contact", "target": "/contact-us"},
 	{"source": "/sap_to_erpnext_migration", "target": "/sap-to-erpnext-migration"},
-	{"source": "/jagdamba-textile", "target": "/textile-industry-erpnext-implementation"},
+	{"source": "/jagdamba-textile", "target": "/garment-manufacturing-erp"},
 	{"source": "/migoo-case-study", "target": "/construction-equipment-as-a-service"},
 	{"source": "/healthcare", "target": "/healthcare-erp"},
     {"source": "/textile", "target": "/textile-erp"},
@@ -271,6 +271,10 @@ website_redirects = [
     {"source": "/hr-payroll", "target": "/hrms-software"},
     {"source": "/manufacturing", "target": "/erpnext-manufacturing"},
     {"source": "/erpnext_indiamart_integration_product", "target": "/erpnext_indiamart_integration"},
-    {"source": "/product-engineering", "target":"/product-developement-company"}
+    {"source": "/product-engineering", "target":"/product-developement-company"},
+    {"source": "/quartz_manufacturers_and_exporters", "target": "/quartz-manufacturing-erp"},
+    {"source": "/gramdharaa_gaushala", "target": "/ayurveda-manufacturing-erp"},
+    {"source": "/textile-industry-erpnext-implementation", "target": "/garment-manufacturing-erp"}
+    # {"source": "", "target": ""}
 ]
 
