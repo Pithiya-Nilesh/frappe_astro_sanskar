@@ -1,1 +1,0 @@
-import"./hoisted.f5929443.js";document.addEventListener("DOMContentLoaded",function(){new Swiper(".swiper_banner_button",{slidesPerView:"auto",spaceBetween:32,loop:!0,autoplay:{delay:3e3,disableOnInteraction:!1},pagination:{el:".swiper-pagination",clickable:!0}})});
